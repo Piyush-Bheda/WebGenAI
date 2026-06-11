@@ -18,7 +18,7 @@ const Home = () => {
         <div className="absolute bottom-0 right-0 w-125 h-125 bg-purple-600/20 rounded-full blur-[140px]" />
       </div>
 
-      {/* Grid background */}
+      {/* Grid background  v*/}
       <div
         className="absolute inset-0 opacity-10"
         style={{

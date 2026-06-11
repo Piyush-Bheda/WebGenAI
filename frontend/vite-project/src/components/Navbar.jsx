@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { Coins } from "lucide-react"
 import axios from "axios"
 import { setUserData } from "../redux/userSlice"
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 
 const Navbar = () => {
 
