@@ -5,7 +5,7 @@ import { signInWithPopup } from 'firebase/auth'
 import { auth, provider } from '../firebase'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
-import { setUserData } from '../redux/userSlice'
+import { setUserData } from '../redux/userSlice';
 
 const LoginModal = ({ open, onClose }) => {
     const dispatch = useDispatch()
