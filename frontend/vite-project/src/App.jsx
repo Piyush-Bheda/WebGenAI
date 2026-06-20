@@ -13,7 +13,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/generate" element={<Generate />} />
-        <Route path="/editor/:id" element={<Editor />} />
+        <Route path="/editor/:id" element={<WebsiteEditor />} />
       </Routes>
     </BrowserRouter>
   )
