@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Pricing from "./pages/Pricing";
 import Generate from "./pages/Generate";
-import Editor from "./pages/Editor";
+import WebsiteEditor from "./pages/WebsiteEditor";
 
 function App() {
   return (

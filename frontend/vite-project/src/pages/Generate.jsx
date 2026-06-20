@@ -53,7 +53,6 @@ const Generate = () => {
     }
 
     useEffect(() => {
-
         if (!loading) {
             setPhaseIndex(0)
             setProgress(0)
