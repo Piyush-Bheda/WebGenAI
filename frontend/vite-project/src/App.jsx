@@ -16,6 +16,7 @@ function App() {
         <Route path="/generate" element={<Generate />} />
         <Route path="/editor/:id" element={<WebsiteEditor />} />
         <Route path='/site/:id' element={<LiveSite/>}/>
+        
       </Routes>
     </BrowserRouter>
   )
