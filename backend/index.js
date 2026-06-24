@@ -4,6 +4,7 @@ import connectDB from './database/db.js';
 import cookieParser from 'cookie-parser';
 import authRoute from './routes/authRoute.js'
 import websiteRoute from './routes/websiteRoute.js'
+import paymentRoute from './routes/paymentRoute.js'
 import cors from 'cors';
 
 dotenv.config();
@@ -23,6 +24,7 @@ app.use(cors({
 //routes
 app.use("/api/auth", authRoute);
 app.use("/api/website", websiteRoute);
+app.use("/api/payment",paymentRoute)
 
 app.get("/", (req, res) => {
     res.send("Hello World!");
