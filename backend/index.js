@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin:"https://webgenai-1.onrender.com",
     credentials: true
 }));
 
