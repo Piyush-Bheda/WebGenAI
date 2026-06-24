@@ -27,9 +27,11 @@ const LiveSite = () => {
   )
 }
   return (
-    <>
-    <h1>hello</h1>
-    </>
+  <iframe 
+  title='Live site' 
+  srcDoc={html} 
+  className='w-screen h-screen border-none'
+  sandbox='allow-scripts allow-same-origin allow-forms'/>
   )
 }
 
